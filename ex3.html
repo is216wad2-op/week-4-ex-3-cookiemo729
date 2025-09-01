@@ -25,7 +25,7 @@
             var input = document.getElementById("userinput");
             // add new item only if the user has entered something
             if (input.value.length > 0) {
-               var textNode = document.createTextNode(input.value + "fsfsf");
+               var textNode = document.createTextNode(input.value);
                li.appendChild(textNode);
                ul.appendChild(li);
                input.value = "";
